@@ -15,7 +15,9 @@ fun main(){
 //    var num3:Int = num2.toInt()
 //    println(num3  + 1)
 
-    var num4:String = "123사"
-    var num5:Int = num4.toInt()
-    println(num5  + 1)
+//    var num4:String = "123사"
+//    var num5:Int = num4.toInt()
+//    println(num5  + 1)
+
+ 
 }
