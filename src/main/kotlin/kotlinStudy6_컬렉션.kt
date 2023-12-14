@@ -23,18 +23,32 @@ fun main(){
 //    }
 
     // mutableSet
-    var mutableSet = mutableSetOf(1,2,1,3)
-    //    mutableSetOf  셋 자체에 변경(추가할 수 없음)을 가할 수 있음
-    println(mutableSet)
+//    var mutableSet = mutableSetOf(1,2,1,3)
+//    //    mutableSetOf  셋 자체에 변경(추가할 수 없음)을 가할 수 있음
+//    println(mutableSet)
 
 
     // mutableMap
-    var mutableMap = mutableMapOf<String, String>()
+//    var mutableMap = mutableMapOf<String, String>()
+//
+//    mutableMap.put("1","one")
+//    mutableMap.put("2","two")
+//    mutableMap.put("3","three")
+//    mutableMap.remove("3")
+//
+//    println("${mutableMap.get("3")}")
 
-    mutableMap.put("1","one")
-    mutableMap.put("2","two")
-    mutableMap.put("3","three")
 
-    println("${mutableMap.get("1")}")
+//    for (i in 0..1000){
+//        if(i>999){
+//            println("${i}")
+//        }
+//    }
+
+    var result = 1
+    while(result < 100){
+        result +=result
+    }
+    println(result)
 
 }
